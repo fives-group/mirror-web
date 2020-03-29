@@ -6,27 +6,27 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 清华大学开源软件镜像站
+title: Wars Mirrors
 # title: 北京外国语大学开源软件镜像站
-school: 清华大学
+school: WARS
 # school: 北京外国语大学
-brand: Tsinghua Open Source Mirror
-operator: 清华大学信息化技术中心
+brand: Wars Open Source Mirror
+operator: Fives Group
 # operator: 北外信息技术中心
 logo: true
 meow_404: true
 issue_tag: tuna
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: "/:categories/:title/"
-url: "https://mirrors.tuna.tsinghua.edu.cn"
-hostname: "mirrors.tuna.tsinghua.edu.cn"
-urlv4: "https://mirrors4.tuna.tsinghua.edu.cn"
-urlv6: "https://mirrors6.tuna.tsinghua.edu.cn"
+url: "https://mirrors.wars.cat"
+hostname: "mirrors.wars.cat"
+urlv4: "https://mirrors.wars.cat"
+urlv6: "https://mirrors.wars.cat"
 aosp: "aosp.tuna.tsinghua.edu.cn"
 arch_archive: "arch-archive.tuna.tsinghua.edu.cn"
 aur: "aur.tuna.tsinghua.edu.cn"
 pypi: "pypi.tuna.tsinghua.edu.cn"
-homelink: "https://tuna.moe"
+homelink: "https://blog.wars.cat"
 
 # Build settings
 highlighter: rouge

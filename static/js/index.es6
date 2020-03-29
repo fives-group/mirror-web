@@ -1,7 +1,7 @@
 ---
 ---
 $(document).ready(() => {
-var lei3Po8h = ["support", ["tuna", "tsinghua", "edu", "cn"].join(".")].join("@");
+var lei3Po8h = ["wars", ["wars", "cat"].join(".")].join("@");
 $('a#eib1gieB')
 	.text(lei3Po8h)
 	.attr('href', ["ma","lto:"].join("i") + lei3Po8h);

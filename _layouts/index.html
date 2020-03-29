@@ -50,7 +50,7 @@
 								{% raw %}
 								<tr v-for="mir in filteredMirrorList" :class="['row', 'status-'+mir.status]" :key="mir.name">
 									<td class="col-md-8">
-										<a class="mirror-item-label"  data-toggle="popover" data-trigger="hover" data-placement="right" 
+										<a class="mirror-item-label"  data-toggle="popover" data-trigger="hover" data-placement="right"
 											:data-content="mir.description" :href="getURL(mir)" :aria-label="mir.name + ', ' + mir.description">
 											{{mir.name}}
 											<span class="label label-new" v-if='mir.is_new'>new</span>
@@ -114,7 +114,6 @@
 							<ul>
 								<li><strong>意见反馈</strong> <br /> <a href="https://github.com/tuna/issues">https://github.com/tuna/issues</a></li>
 								<li><strong>发送邮件</strong> <br /> <a id="eib1gieB"></a></li>
-								<li><strong>在线交流</strong> <br /> <a href="https://fishroom.tuna.moe/log/tuna/today"> #tuna at freenode </a></li>
 							</ul>
 						</div>
 						<div>
