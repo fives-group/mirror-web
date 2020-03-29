@@ -1,4 +1,4 @@
-# TUNA mirrors 主页
+# WARS mirrors 主页
 
 ## 运行 Demo
 
@@ -33,11 +33,11 @@ ruby setup.rb
 gem install bundle
 gem install build
 ```
-4. Fork mirrors source code
-
+4. 将 bundle 加入环境变量
+5. Fork mirrors source code
 ```
 bundle install
-jekyll build
+bundle exec jekyll build
 ```
 
 ### Build In Docker
@@ -56,7 +56,7 @@ mkdir -p static/status
 wget https://mirrors.tuna.tsinghua.edu.cn/static/status/isoinfo.json -O static/status/isoinfo.json
 ```
 
-之后 `jekyll serve` 即可运行 demo.
+之后 `bundle exec jekyll serve` 即可运行 demo.
 
 ## 贡献文档
 
